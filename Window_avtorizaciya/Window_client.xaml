@@ -1,0 +1,56 @@
+﻿<Window x:Class="Window_avtorizaciya.Window_client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Window_avtorizaciya"
+        mc:Ignorable="d"
+        Title="Widow_client" Height="1000" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <Label Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="40" Content="Клиент"/>
+        <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Код клиента" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Content="E-mail:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="Фамилия:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Имя:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Content="Отчество:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="Адрес:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Дата рождения:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Content="Серия паспорта:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="Номер паспорта:" FontSize ="30"/>
+        <Label Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Телефон:" FontSize ="30"/>
+        <TextBox Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="2" Grid.ColumnSpan ="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="4" Grid.ColumnSpan ="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="6" Grid.ColumnSpan ="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <TextBox Grid.Column="2" Grid.Row="7" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+
+        <Button Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="80" Content="Отменить" FontSize="25" Click="Button_Click"/>
+        <Button Grid.Column="3" Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="80" Content="Добавить" FontSize="25" Click="Button_Click_1"/>
+    </Grid>
+</Window>

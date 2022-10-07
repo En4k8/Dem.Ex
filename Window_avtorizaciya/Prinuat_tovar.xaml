@@ -1,0 +1,29 @@
+﻿<Window x:Class="Window_avtorizaciya.Prinuat_tovar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Window_avtorizaciya"
+        mc:Ignorable="d"
+        Title="Prinuat_tovar" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content ="Приёмка товара" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" FontSize="40"/>
+        <Label Content="Введите код товара: " Grid.Column ="1" Grid.Row ="1" Grid.ColumnSpan="3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="70" FontSize="30"/>
+        <TextBox Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Height="50" Width="300" FontSize="30"/>
+        <Button Content="Принять" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan ="2" Height="50" Width="200" FontSize="25" Click="Button_Click"/>
+        <Button Content="Отмена" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan ="2" Height="50" Width="200" FontSize="25" Click="Button_Click_1"/>
+    </Grid>
+</Window>

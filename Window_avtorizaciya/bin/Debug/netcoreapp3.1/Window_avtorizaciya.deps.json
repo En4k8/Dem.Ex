@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Window_avtorizaciya/1.0.0": {
+        "runtime": {
+          "Window_avtorizaciya.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Window_avtorizaciya/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
